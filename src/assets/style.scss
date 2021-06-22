@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .wrap {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  
+  #nav {
+    background: #ccc;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    .logo {
+      margin-left: 20px;
+    }
+  
+    .user-info {
+      margin-right: 20px;
+      display: flex;
+  
+      li {
+        padding: 0 10px;
+      }
+    }
+  }
+  
+  .content {
+    text-align: center;
+    display: flex;
+  }
+  .content form {
+    width: 300px;
+    margin: 50px auto;
+  }
