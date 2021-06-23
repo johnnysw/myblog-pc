@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="wrap">
     <div id="nav">
-      <div class="logo">LOGO</div>
+      <div class="logo">LOGO haha</div>
       <ul class="user-info">
         <li>
           <router-link to="/user/login">登录</router-link>
